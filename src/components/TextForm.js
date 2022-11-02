@@ -44,9 +44,9 @@ export default function TextForm(props) {
           style={{backgroundColor:props.mode==='dark'?'grey':'white', color:props.mode==='dark'?'White':'black'}} id="myBox" rows="3"
           placeholder="Enter text here"></textarea>
       </div>
-      <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to uppercase</button>
-      <button className="btn btn-primary mx-2" onClick={handlelowClick}>Convert to Lowercase</button>
-      <button className="btn btn-primary mx-2" onClick={handleClearText}>Clear Text</button>
+      <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>Convert to uppercase</button>
+      <button className="btn btn-primary mx-2 my-2" onClick={handlelowClick}>Convert to Lowercase</button>
+      <button className="btn btn-primary mx-2 my-2" onClick={handleClearText}>Clear Text</button>
       <button type="submit" onClick={speak} className="btn btn-warning mx-2 my-2">Speak</button>
     </div>
     <div className="container my-3" style={{color : props.mode==='dark'?'white':'black'}}>
