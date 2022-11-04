@@ -3,6 +3,9 @@
   opacity: 1; 
 }
 
+.accordion-button::after{
+      filter: invert(1);
+}
 
 
 
